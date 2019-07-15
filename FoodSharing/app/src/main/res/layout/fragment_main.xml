@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/title_big"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:text="Food Sharing"
+                android:textSize="50sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:background="#FFFFFF"/>
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:columnCount="3"
+                android:background="#FFFFFF">
+
+                <ImageView
+                    android:id="@+id/image_category1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="20dp"
+                    android:src="@drawable/category_1"/>
+                <ImageView
+                    android:id="@+id/image_category2"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="20dp"
+                    android:src="@drawable/category_2"/>
+                <ImageView
+                    android:id="@+id/image_category3"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="20dp"
+                    android:src="@drawable/category_3"/>
+                <ImageView
+                    android:id="@+id/image_category4"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="20dp"
+                    android:src="@drawable/category_4"/>
+                <ImageView
+                    android:id="@+id/image_category5"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="20dp"
+                    android:src="@drawable/category_5"/>
+                <ImageView
+                    android:id="@+id/image_category6"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="20dp" />
+
+            </GridLayout>
+
+            <TextView
+                android:id="@+id/title_recommend"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:text="실시간 Top5"
+                android:textSize="40sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"/>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="#2B2B2B"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp">
+                <ImageView
+                    android:id="@+id/image_recommend1"
+                    android:layout_width="290dp"
+                    android:layout_height="190dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/recommend_1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="#2B2B2B"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp">
+                <ImageView
+                    android:id="@+id/image_recommend2"
+                    android:layout_width="290dp"
+                    android:layout_height="190dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/recommend_2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="#2B2B2B"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp">
+                <ImageView
+                    android:id="@+id/image_recommend3"
+                    android:layout_width="290dp"
+                    android:layout_height="190dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/recommend_3"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="#2B2B2B"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp">
+                <ImageView
+                    android:id="@+id/image_recommend4"
+                    android:layout_width="290dp"
+                    android:layout_height="190dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/recommend_4"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="#2B2B2B"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp">
+                <ImageView
+                    android:id="@+id/image_recommend5"
+                    android:layout_width="290dp"
+                    android:layout_height="190dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/recommend_5"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
